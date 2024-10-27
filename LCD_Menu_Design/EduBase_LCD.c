@@ -125,3 +125,13 @@ void EduBase_LCD_Display_String(char* string)
 {
 
 }
+
+void EduBase_LCD_Display_Integer(int value)
+{
+
+}
+
+void EduBase_LCD_Display_Double(double value)
+{
+
+}

@@ -454,6 +454,11 @@
               <FileType>1</FileType>
               <FilePath>.\EduBase_LCD.c</FilePath>
             </File>
+            <File>
+              <FileName>PMOD_ENC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\PMOD_ENC.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -518,6 +523,11 @@
               <FileName>EduBase_LCD.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\EduBase_LCD.h</FilePath>
+            </File>
+            <File>
+              <FileName>PMOD_ENC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\PMOD_ENC.h</FilePath>
             </File>
           </Files>
         </Group>

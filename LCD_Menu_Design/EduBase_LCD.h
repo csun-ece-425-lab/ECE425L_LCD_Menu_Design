@@ -22,6 +22,7 @@
 #include "TM4C123GH6PM.h"
 #include "SysTick_Delay.h"
 #include <string.h>
+#include <stdio.h>
 
 static uint8_t up_arrow[8] =
 {
@@ -391,3 +392,21 @@ void EduBase_LCD_Create_Custom_Character(uint8_t location, uint8_t character_buf
  * @return None
  */
 void EduBase_LCD_Display_String(char* string);
+
+/**
+ * @brief Converts the integer value to string to display it on the LCD using sprintf.
+ *
+ * @param value An integer that will be converted to string.
+ *
+ * @return None
+ */
+void EduBase_LCD_Display_Integer(int value);
+
+/**
+ * @brief Converts the double value to string to display it on the LCD using sprintf.
+ *
+ * @param value A double that will be converted to string.
+ *
+ * @return None
+ */
+void EduBase_LCD_Display_Double(double value);
